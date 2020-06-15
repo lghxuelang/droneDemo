@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+#viewDiv {
+  width: 100vw;
+  height: 100vh;
+}
+
+.control {
+  width: 350px;
+  height: 130px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -175px;
+  display: flex;
+}
+
+.playbar {
+  background: url("../images/playBtn.png");
+  background-size: 100% 100%;
+  width: 300px;
+  text-align: center;
+  line-height: 130px;
+  font-size: 24px;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.speedbar {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 50px;
+}
+
+.speed {
+  height: 8px;
+  width: 50px;
+  margin: 5px auto;
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.activeSpeed {
+  height: 8px;
+  width: 50px;
+  margin: 5px auto;
+  background: #fff;
+  cursor: pointer;
+}
+
+.speedtext {
+  text-align: center;
+  letter-spacing: 2px;
+}
